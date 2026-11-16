@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-16",
+  "questions": 808,
+  "newChineseNotes": 324,
+  "totalChineseNotes": 755,
+  "original431NotesUnchanged": true,
+  "questionContentUnchanged": true,
+  "questionHash": "f5408005869a67ecebae419f615a320e62eafecd3c22ce9880876e473aba8f69",
+  "newTranslatedOptions": 748,
+  "totalTranslatedOptions": 1831,
+  "sourceAudit": {
+    "questions": 808,
+    "pdfPages": 515,
+    "bgwProvided": 755,
+    "notesTextMatch": 755,
+    "differences": 2,
+    "missingBGW": 53,
+    "images": 1307,
+    "pdfChoiceText": 754,
+    "bgwMediaPending": 0
+  },
+  "originalImagesUnchanged": 1307,
+  "questionsWithFigures": 500,
+  "nativeFigures": 502,
+  "bgwImagesVerified": 502,
+  "newBGWImagesVerified": 215,
+  "allFiguresEmbedded": true,
+  "statisticsCoreUnchanged": true,
+  "onlySourceDifferenceNoticesAdded": true,
+  "storageKeysUnchanged": true,
+  "testProgressEmbedded": false,
+  "inlineScriptSyntaxPassed": true,
+  "files": [
+    {
+      "name": "ENARSI_單檔離線測驗.html",
+      "bytes": 91551613,
+      "sha256": "ca79014000aa577d903e2d39c481bd4d5dfa268c724d0283fbc90c37c99de208",
+      "questions": 808,
+      "notes": 755
+    },
+    {
+      "name": "ENARSI_iPhone試用_兩題.html",
+      "bytes": 566946,
+      "sha256": "46934091fdb0fbc921f3bfde2f7c620583238713e80f049e137556bc829dbe14",
+      "questions": 2,
+      "notes": 2
+    }
+  ],
+  "limits": [
+    "Browser check uses isolated storage on local HTTP; direct file opening and iPhone Documents not tested in this release."
+  ],
+  "browserChecks": {
+    "date": "2026-11-16",
+    "fixture": "Full delivery HTML with only isolated storage key and title changed",
+    "storageKey": "qa-A754-nov16-full-v1",
+    "checks": {
+      "fullBank808": true,
+      "chineseNotes755": true,
+      "initialProgressZero": true,
+      "A431ChineseNoteAndFigure": true,
+      "A752AndA754BothFiguresEmbeddedAndLoaded": true,
+      "A754ChineseAndNote": true,
+      "A666SourceNumbersPreserved": true,
+      "sourceDifferenceFilterShowsA543AndA666": true,
+      "rangeA431ToA754ChineseExactly324": true,
+      "mockMultipleSelectionWorks": true,
+      "mockHidesAnswerAndDifferenceNotice": true,
+      "A666SourceABScores1000": true,
+      "reviewShowsSourceDifference": true,
+      "scoreSurvivesReload": true,
+      "independentAuditShowsTwoSourceDifferences": true,
+      "noConsoleErrors": true
+    },
+    "screenshot": "ENARSI_A754_補充驗證.jpg",
+    "limits": [
+      "No physical iPhone Documents test",
+      "Browser verified through local HTTP; direct file opening not automated"
+    ]
+  },
+  "logicTests": {
+    "reset": 15,
+    "linkedDelete": 20,
+    "scoreStatistics": 16,
+    "mastery": 28,
+    "adaptiveSampling": 20,
+    "selection": 17,
+    "total": 116
+  },
+  "sourceDifferences": {
+    "A543": "Bullet symbol differs; PDF retained.",
+    "A666": "BGW B/E police 320000; PDF B/E police 3200000. PDF retained; both answer AB."
+  },
+  "remainingBGW": {
+    "B2-B23": 22,
+    "C1-C31": 31,
+    "total": 53
+  }
+}

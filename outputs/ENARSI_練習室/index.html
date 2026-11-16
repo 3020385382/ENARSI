@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#113e45"><meta name="description" content="ENARSI 隨身練習室。手機與電腦可用，匯入自己的題庫與 BGW 原文筆記。">
+<title>ENARSI 隨身練習室</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><a href="#practice" class="brand"><span class="brand-mark">EN</span><span>ENARSI <strong>隨身練習室</strong><small>300-410 · 個人複習空間</small></span></a><span class="save-state" id="save-state" role="status">正在載入…</span></header>
+<nav class="main-nav" aria-label="主要功能"><button data-view="practice" class="active">逐題練習</button><button data-view="exam">模擬測驗</button><button data-view="knowledge">知識點統計</button><button data-view="notes">中文筆記</button><button data-view="audit">來源審計</button><button data-view="collect">收集與備份</button></nav>
+<main id="app" aria-live="polite"><div class="loading">正在開啟你的練習室…</div></main>
+<div id="toast" class="toast" role="status"></div>
+<dialog id="image-dialog"><button class="dialog-close" aria-label="關閉圖片">關閉 ✕</button><div class="zoom-scroll"><img alt="原題放大檢視"></div></dialog>
+<dialog id="confirm-dialog"><form method="dialog"><h2 id="confirm-title">確認</h2><p id="confirm-body"></p><div class="actions"><button value="cancel">返回</button><button value="ok" class="primary">確定</button></div></form></dialog>
+<input id="import-files" type="file" accept=".json,.html,.htm,.txt" multiple hidden>
+<script src="data.js"></script><script src="notes.js"></script><script src="core.js"></script><script src="app.js"></script>
+</body></html>
